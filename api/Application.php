@@ -76,7 +76,7 @@ class Application {
 		$acl = new Acl($acls);
 
 		try {
-			Router::resolve($routes, $acl, $loader);
+			Router::resolve($routes, $acl);
 		} catch (\Exception $e) {
 			http_response_code($e->getCode());
 			echo json_encode(['error' => $e->getMessage()]);
