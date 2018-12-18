@@ -6,7 +6,7 @@
         }
     ],
     "require": {
-        "php": ">=7.2",
-        "diego3/free-machine": "master"
+        "php": ">=7.0",
+        "diego3/free-machine": "1.0"
     }
 }
