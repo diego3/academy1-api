@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/diego3/free-machine.git",
-                "reference": "a87205d92ee52810ae099f13d7771aac79889367"
+                "reference": "19cf04f24882f8edfe02d23da5b0f8fc51b97180"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/diego3/free-machine/zipball/a87205d92ee52810ae099f13d7771aac79889367",
-                "reference": "a87205d92ee52810ae099f13d7771aac79889367",
+                "url": "https://api.github.com/repos/diego3/free-machine/zipball/19cf04f24882f8edfe02d23da5b0f8fc51b97180",
+                "reference": "19cf04f24882f8edfe02d23da5b0f8fc51b97180",
                 "shasum": ""
             },
             "require": {
@@ -48,10 +48,10 @@
                 "framework"
             ],
             "support": {
-                "source": "https://github.com/diego3/free-machine/tree/v1.1.0",
+                "source": "https://github.com/diego3/free-machine/tree/master",
                 "issues": "https://github.com/diego3/free-machine/issues"
             },
-            "time": "2018-12-18T03:57:50+00:00"
+            "time": "2018-12-18T04:19:46+00:00"
         }
     ],
     "packages-dev": [],

@@ -1,9 +1,9 @@
 <?php
 namespace Api;
 
-use FreeMachine\Router\Router';
-use FreeMachine\Auth\Acl.php';
-use FreeMachine\Auth\TokenApiAuth.php';
+use FreeMachine\Router\Router;
+use FreeMachine\Auth\Acl;
+use FreeMachine\Auth\TokenApiAuth;
 
 class Application {
 
@@ -47,12 +47,21 @@ class Application {
 			]
 		];
 
+		$aclUser1 = [
+			24323 => [
+				'AlunosController->post' => ''
+			]
+		];
+
 		// usuario 57748 ver dados cadastrais dos alunos, não pode alterar nem apagar
 		$aclUser = [
 			57748 => [
 				'rules' => [
 					'/alunos' => [
-						'POST' => 'r'
+						'POST' 	=> 'r',
+						'GET'  	=> 'r',
+						'PUT'  	=> 'r',
+						'DELETE'=> 'r',
 					]
 				]
 			]

@@ -1,8 +1,12 @@
 <?php 
+
+$loader = require_once __DIR__.'/../vendor/autoload.php';
+//$loader->addPsr4('Api\\', __DIR__.'/../');
+//echo '<pre>';
+//print_r($loader);
+//exit;
 use Api\Application;
 
-echo json_encode(['msg' => 'I am alive']);
-exit;
 
 try {
 	
