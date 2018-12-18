@@ -1,0 +1,69 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "e03e4a1423b96593c3c89a16447adac0",
+    "packages": [
+        {
+            "name": "diego3/free-machine",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/diego3/free-machine.git",
+                "reference": "a87205d92ee52810ae099f13d7771aac79889367"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/diego3/free-machine/zipball/a87205d92ee52810ae099f13d7771aac79889367",
+                "reference": "a87205d92ee52810ae099f13d7771aac79889367",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": ">=5"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "FreeMachine\\": "/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Diego Rosa dos Santos",
+                    "email": "www.diegosantos.com.br@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "PHP Framework",
+            "homepage": "http://github.com/diego3/free-machine",
+            "keywords": [
+                "framework"
+            ],
+            "support": {
+                "source": "https://github.com/diego3/free-machine/tree/v1.1.0",
+                "issues": "https://github.com/diego3/free-machine/issues"
+            },
+            "time": "2018-12-18T03:57:50+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "diego3/free-machine": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=7.0"
+    },
+    "platform-dev": []
+}

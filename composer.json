@@ -7,6 +7,11 @@
     ],
     "require": {
         "php": ">=7.0",
-        "diego3/free-machine": "1.0"
+        "diego3/free-machine": "dev-master"
+    },
+     "autoload": {
+        "psr-4": {
+            "Api\\": "/"
+        }
     }
 }
