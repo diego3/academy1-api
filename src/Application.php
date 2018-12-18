@@ -13,14 +13,14 @@ class Application {
 
 		$routes = [
 			'/alunos' => [
-				'GET'  		=> 'AlunosController->get',
-				'POST'		=> 'AlunosController->post',
-				'PUT' 		=> 'AlunosController->put',
-				'DELETE'	=> 'AlunosController->delete'
+				'GET'  		=> 'Api\Controller\AlunosController->get',
+				'POST'		=> 'Api\Controller\AlunosController->post',
+				'PUT' 		=> 'Api\Controller\AlunosController->put',
+				'DELETE'	=> 'Api\Controller\AlunosController->delete'
 			],
 			'/professores' => [
-				'GET'  => 'ProfessoresController->get',
-				'POST' => 'ProfessoresController->post'
+				'GET'  => 'Api\Controller\ProfessoresController->get',
+				'POST' => 'Api\Controller\ProfessoresController->post'
 			]
 		];
 		
@@ -76,7 +76,7 @@ class Application {
 		$acl = new Acl($acls);
 
 		try {
-			Router::resolve($routes, $acl);
+			Router::resolve($routes, $acl, $loader);
 		} catch (\Exception $e) {
 			http_response_code($e->getCode());
 			echo json_encode(['error' => $e->getMessage()]);

@@ -39,4 +39,4 @@ class AlunosController {
 }
 
 
-class InvalidAlunoException extends Exception { }
+class InvalidAlunoException extends \Exception { }
