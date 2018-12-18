@@ -1,0 +1,12 @@
+{
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/diego3/free-machine"
+        }
+    ],
+    "require": {
+        "php": ">=7.2",
+        "diego3/free-machine": "master"
+    }
+}
